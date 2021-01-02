@@ -5,6 +5,14 @@
 This app is just an Android WebView Example with Kotlin.In this app I turned my portfolio  Website into Native Android App.
 
 
+ # Screenshots
+ 
+ <img src="screenshots/6.png" >
+<img src="screenshots/7.png" >
+<img src="screenshots/8.png" >
+
+
+
 # How to use:
 
 - Download or Clone this project
@@ -42,11 +50,6 @@ This app is just an Android WebView Example with Kotlin.In this app I turned my 
 
    
    
- # Screenshots
- 
- <img src="screenshots/6.png" >
-<img src="screenshots/7.png" >
-<img src="screenshots/8.png" >
 
 
 
