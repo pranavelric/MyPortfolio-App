@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PranavElric</string>
+    <string name="title_activity_webview">WebviewActivity</string>
+    <string name="your_name">Pranav Choudhary</string>
+    <string name="your_profession">Android Developer</string>
+    <string name="about_me">
+        Hey 👋, I`m Pranav Choudhary,
+        I am a Computer science undergraduate pursuing my B.tech degree from IIIT Jabalpur.
+     \n
+        I dabble in Android, Kotlin, Java, Flutter, UI/UX and spend most of my time automating my life via literally living inside the terminal .
+        I am eager to constantly learn new things.
+      \n
+        At the moment, my focus is on the kotlin language features, RxJava and RxAndroid, architectural patterns on Android (MVVM, MVP, etc.)
+        and of course I am always up for trying out the newest Android libraries.
+\n
+        In case you are interested in cooperation with me, do not hesitate to contact me
+
+    </string>
+
+
+    <string name="your_age">•21</string>
+    <string name="your_gender">•male</string>
+    <string name="contact_intro">"I'm currently looking for any new opportunities, Internships or any development work, my inbox is always open. Whether you have a question,or If you want source-code of my app, or just want to say hi, I'll get back to you."</string>
+    <string name="your_phone_number">+91 963644004</string>
+    <string name="your_email">pranavchoudhary500@gmail.com</string>
+    <string name="your_address">Jaipur, Rajasthan, India</string>
+
+
+</resources>

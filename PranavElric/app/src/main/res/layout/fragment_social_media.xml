@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.Webscreens.SocialMediaFragment"
+    android:background="@null"
+    >
+
+
+    <com.ramotion.circlemenu.CircleMenuView
+        android:id="@+id/circle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:background="#27000000"
+        app:icon_color="@color/my_dark_blue"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:button_colors="@array/colors"
+        app:button_icons="@array/icons"
+        app:maxImageSize="@dimen/_150sdp" />
+
+
+</FrameLayout>

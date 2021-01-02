@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/grp_1">
+        <item
+            android:id="@+id/home_fragment"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_baseline_people_alt_24"
+            android:title="About us" />
+
+
+    </group>
+
+    <item android:title="Social">
+        <menu>
+        <group android:id="@+id/grp_social">
+
+            <item
+                android:id="@+id/socialMediaFragment"
+                android:icon="@drawable/ic_social"
+                android:title="Follow us" />
+        </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Contact Us">
+        <menu>
+            <group android:id="@+id/grp_2">
+
+                <item
+                    android:id="@+id/contactUsFragment"
+                    android:icon="@drawable/ic_baseline_contacts_24"
+                    android:title="Contact us" />
+
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Support Us">
+        <menu>
+            <group android:id="@+id/support">
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

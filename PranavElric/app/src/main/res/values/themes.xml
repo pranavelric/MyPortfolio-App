@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProfessionalCipher" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/my_dark_blue</item>
+        <item name="colorPrimaryVariant">@color/my_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">#AA1B1B</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_dark_blue</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:actionMenuTextColor">@color/yellow</item>
+
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.ProfessionalCipher">
+    <item name="android:windowBackground">@color/blue</item>
+    </style>
+
+
+
+</resources>

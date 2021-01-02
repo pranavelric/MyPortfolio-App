@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="icons">
+        <item>@drawable/stack</item>
+        <item>@drawable/youtube</item>
+        <item>@drawable/linkedin</item>
+        <item>@drawable/github</item>
+        <item>@drawable/ic_instagram</item>
+
+    </array>
+    <array name="colors">
+        <item>#f48024</item>
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/my_dark_blue</item>
+        <item>#EFAA6C</item>
+    </array>
+</resources>

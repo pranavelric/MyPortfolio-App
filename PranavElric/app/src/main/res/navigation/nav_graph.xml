@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.portfolio.pranavelric.ui.home.Webscreens.home_fragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_fragment" >
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/youtubeFragment"
+        android:name="com.portfolio.pranavelric.ui.home.Webscreens.YoutubeFragment"
+        android:label="Youtube"
+        tools:layout="@layout/fragment_youtube" />
+    <fragment
+        android:id="@+id/instagramFragment"
+        android:name="com.portfolio.pranavelric.ui.home.Webscreens.InstagramFragment"
+        android:label="Instagram"
+        tools:layout="@layout/fragment_instagram"
+
+        />
+    <fragment
+        android:id="@+id/linkedinFragment"
+        android:name="com.portfolio.pranavelric.ui.home.Webscreens.LinkedinFragment"
+        android:label="Linkedin"
+        tools:layout="@layout/fragment_linkedin"
+        />
+    <fragment
+        android:id="@+id/githubFragment"
+        android:name="com.portfolio.pranavelric.ui.home.Webscreens.GithubFragment"
+        android:label="Github"
+        tools:layout="@layout/fragment_github"
+        />
+
+
+    <fragment
+        android:id="@+id/stackFragment"
+        android:name="com.portfolio.pranavelric.ui.home.Webscreens.StackOverflowFragment"
+        android:label="Stackoverflow"
+        tools:layout="@layout/fragment_stack"
+        />
+    <fragment
+        android:id="@+id/socialMediaFragment"
+        android:name="com.portfolio.pranavelric.ui.home.Webscreens.SocialMediaFragment"
+        android:label="Social Media"
+        tools:layout="@layout/fragment_social_media" >
+       
+        <action
+
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            android:id="@+id/action_socialMediaFragment_to_stackFragment"
+            app:destination="@id/stackFragment" />
+        <action
+
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            android:id="@+id/action_socialMediaFragment_to_githubFragment"
+            app:destination="@id/githubFragment" />
+        <action
+
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            android:id="@+id/action_socialMediaFragment_to_linkedinFragment"
+            app:destination="@id/linkedinFragment" />
+        <action
+
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            android:id="@+id/action_socialMediaFragment_to_instagramFragment"
+            app:destination="@id/instagramFragment" />
+        <action
+
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            android:id="@+id/action_socialMediaFragment_to_youtubeFragment"
+            app:destination="@id/youtubeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/about_us"
+        android:name="com.portfolio.pranavelric.ui.home.about_us.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" >
+        <action
+
+            app:enterAnim="@anim/fade_in_transition"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+
+            android:id="@+id/action_about_us_to_instagramFragment"
+            app:destination="@id/instagramFragment" />
+        <action
+
+
+            app:enterAnim="@anim/fade_in_transition"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+
+            android:id="@+id/action_about_us_to_linkedinFragment"
+            app:destination="@id/linkedinFragment" />
+        <action
+
+
+            app:enterAnim="@anim/fade_in_transition"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+
+            android:id="@+id/action_about_us_to_githubFragment"
+            app:destination="@id/githubFragment" />
+        <action
+
+
+            app:enterAnim="@anim/fade_in_transition"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+
+            android:id="@+id/action_about_us_to_youtubeFragment"
+            app:destination="@id/youtubeFragment" />
+        <action
+
+
+            app:enterAnim="@anim/fade_in_transition"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+
+            android:id="@+id/action_about_us_to_stackFragment"
+            app:destination="@id/stackFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.portfolio.pranavelric.ui.home.contactUs.ContactUsFragment"
+        android:label="Contact us"
+        tools:layout="@layout/fragment_contact_us" />
+
+
+</navigation>

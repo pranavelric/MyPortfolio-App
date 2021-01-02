@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="2500"
+        motion:autoTransition="animateToEnd"
+        >
+       <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/logo_img"
+               motion:framePosition="18"
+               android:scaleX="0.8"
+               android:scaleY="0.8" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/logo_img"
+               motion:framePosition="44"
+               android:scaleX="0.5"
+               android:scaleY="0.5"
+               />
+           <KeyAttribute
+               motion:motionTarget="@+id/logo_img"
+               motion:framePosition="54"
+               android:scaleX="0.4"
+               android:scaleY="0.4"
+               />
+           <KeyAttribute
+               motion:motionTarget="@+id/logo_img"
+               motion:framePosition="100"
+               android:scaleX="1"
+               android:scaleY="1"
+               />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/logo_img"
+               motion:framePosition="0"
+               android:scaleX="0.5"
+               android:scaleY="0.5" />
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>
